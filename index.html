@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Steel and Metals Supply | Aceros, aluminio, bronce y plásticos de ingeniería en Reynosa (propuesta)</title>
+<meta name="description" content="Venta de aceros al carbón, herramienta e inoxidables, aluminio, bronce, cobre, plásticos de ingeniería y herramientas de corte en Reynosa, Tamaulipas, con cotización inmediata.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#FFFFFF; --surface:#FFFFFF; --alt:#F4F4F2; --ink:#111111; --muted:#4D4D4D; --line:#D9D9D6;
+  --accent:#1F4FA8; --accent-dark:#163B80; --on-accent:#FFFFFF; --dark:#111111; --on-dark:#F4F4F2; --on-dark-muted:#C9C9C4;
+  --r:12px; --display:"Inter",system-ui,sans-serif; --body:"Inter",system-ui,sans-serif; --label:"Inter",system-ui,sans-serif;
+  --h-weight:600; --h-track:-.02em; --h-case:none;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.6}
+img{max-width:100%;display:block}
+a{color:var(--accent-dark)}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+h1,h2,h3{font-family:var(--display);font-weight:var(--h-weight);letter-spacing:var(--h-track);text-transform:var(--h-case);line-height:1.06;margin:0;text-wrap:balance;color:var(--ink)}
+p{margin:0}
+.wrap{max-width:1200px;margin:0 auto;padding-left:16px;padding-right:16px}
+.kicker{font-family:var(--label);font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--accent-dark)}
+
+.proposal{background:var(--dark);color:var(--on-dark);font-size:14px}
+.proposal .wrap{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;padding-top:8px;padding-bottom:8px}
+.proposal button{background:var(--on-dark);color:var(--dark);border:0;border-radius:6px;padding:6px 12px;font:inherit;font-weight:600;cursor:pointer}
+
+header.top{position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;gap:16px;min-height:70px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink);min-width:0}
+.brand img{height:44px;width:auto;max-width:200px;object-fit:contain}
+.brand b{font-family:var(--display);font-weight:var(--h-weight);font-size:20px;line-height:1.1}
+.brand small{display:block;font-size:12px;color:var(--muted);font-family:var(--label)}
+nav.main{display:flex;gap:2px;margin-left:auto}
+nav.main a{color:var(--ink);text-decoration:none;font-size:15px;font-weight:500;padding:8px 10px;border-radius:6px}
+nav.main a:hover{background:var(--alt)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:46px;padding:10px 20px;border-radius:var(--r);font:inherit;font-weight:600;font-size:16px;text-decoration:none;border:1px solid transparent;cursor:pointer;line-height:1.2;text-align:center}
+.btn-accent{background:var(--accent);color:var(--on-accent)}
+.btn-accent:hover{background:var(--accent-dark)}
+.btn-line{border-color:var(--ink);color:var(--ink);background:transparent}
+.btn-line:hover{background:var(--ink);color:var(--bg)}
+.top .btn{flex:none}
+
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:44px;align-items:center;padding-top:60px;padding-bottom:56px}
+.hero h1{font-size:clamp(40px,5.6vw,72px);margin:12px 0 18px}
+.hero .lead{font-size:19px;color:var(--muted);max-width:34em}
+.ctas{display:flex;gap:10px;flex-wrap:wrap;margin-top:26px}
+.hero figure{margin:0}
+.hero figure img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:var(--r);background:var(--alt)}
+.hero .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:24px;display:grid;gap:14px}
+.hero .card h2{font-size:24px}
+.hero .card ul{margin:0;padding-left:20px;color:var(--muted);display:grid;gap:6px}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.facts div{padding:18px 16px;display:grid;gap:2px;border-right:1px solid var(--line)}
+.facts div:last-child{border-right:0}
+.facts b{font-family:var(--display);font-weight:var(--h-weight);font-size:22px;line-height:1.15}
+.facts span{color:var(--muted);font-size:15px}
+
+section.block{padding:80px 0}
+section.alt{background:var(--alt)}
+section.dark{background:var(--dark);color:var(--on-dark)}
+section.dark h2,section.dark h3{color:var(--on-dark)}
+section.dark .sec-head p{color:var(--on-dark-muted)}
+section.dark .kicker{color:var(--on-dark-muted)}
+.sec-head{display:grid;gap:12px;margin-bottom:32px;max-width:760px}
+.sec-head h2{font-size:clamp(32px,4.4vw,54px)}
+.sec-head p{color:var(--muted);font-size:18px}
+
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.cards article{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:24px;display:flex;flex-direction:column;gap:10px}
+.cards article img{width:calc(100% + 48px);margin:-24px -24px 6px;aspect-ratio:16/10;object-fit:cover;border-radius:var(--r) var(--r) 0 0;max-width:none}
+.cards h3{font-size:24px}
+.cards p{color:var(--muted)}
+.cards ul{margin:0;padding-left:18px;color:var(--muted);display:grid;gap:4px;font-size:16px}
+
+.chips{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.chips li{border:1px solid var(--line);border-radius:999px;padding:7px 14px;font-size:16px;background:var(--surface);color:var(--ink)}
+section.dark .chips li{background:transparent;border-color:var(--on-dark-muted);color:var(--on-dark)}
+.chip-groups{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:32px}
+.chip-groups h3{font-size:22px;margin-bottom:14px}
+
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px}
+.gallery figure{margin:0;display:grid;gap:8px}
+.gallery img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:var(--r);background:var(--alt)}
+.gallery figcaption{font-size:14px;color:var(--muted)}
+
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
+.contact dl{margin:0;display:grid;gap:14px}
+.contact dt{font-size:14px;color:var(--muted);font-family:var(--label)}
+.contact dd{margin:0;font-size:19px;overflow-wrap:anywhere}
+.contact dd a{font-weight:600}
+form.qf{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:24px;display:grid;gap:14px}
+.qf h3{font-size:28px}
+.qf label{display:block;font-weight:600;font-size:15px;margin-bottom:6px}
+.qf input,.qf select,.qf textarea{width:100%;font:inherit;font-size:16px;padding:10px 12px;border:1px solid var(--muted);border-radius:8px;background:var(--bg);color:var(--ink)}
+.qf .row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.qf .note{font-size:14px;color:var(--muted)}
+.qf .err{color:#A3261A;font-size:14px}
+
+footer{background:var(--dark);color:var(--on-dark-muted);padding:32px 0;font-size:15px}
+footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:center}
+footer a{color:var(--on-dark)}
+
+dialog{border:0;padding:0;border-radius:var(--r);width:min(600px,calc(100vw - 32px));max-height:calc(100vh - 32px);background:var(--bg);color:var(--ink)}
+dialog::backdrop{background:rgba(0,0,0,.6)}
+.dh{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 20px;border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--bg)}
+.dh h2{font-size:28px}
+.x{background:none;border:0;font-size:28px;line-height:1;cursor:pointer;width:44px;height:44px;color:var(--ink)}
+.db{padding:16px 20px 22px}
+.db ol{margin:0;padding-left:20px;display:grid;gap:12px}
+.db b{display:block}
+.db span{color:var(--muted);font-size:15px}
+
+@media (max-width:1020px){
+  nav.main{display:none}
+  .top .btn{margin-left:auto}
+}
+@media (max-width:820px){
+  .hero .wrap,.contact{grid-template-columns:minmax(0,1fr)}
+  .hero .wrap{padding-top:36px;padding-bottom:40px;gap:28px}
+  section.block{padding:56px 0}
+  .facts div{border-right:0;border-bottom:1px solid var(--line)}
+  .facts div:last-child{border-bottom:0}
+}
+@media (max-width:540px){
+  .brand img{height:36px;max-width:150px}
+  .brand small{display:none}
+  .brand b{font-size:17px}
+  .top .wrap{gap:10px}
+  .top .btn{padding:8px 14px;min-height:42px}
+  .qf .row{grid-template-columns:1fr}
+  form.qf,.hero .card,.cards article{padding:18px}
+  .cards article img{width:calc(100% + 36px);margin:-18px -18px 6px}
+  .ctas .btn{width:100%}
+}
+</style>
+<style id="refero-theme">
+/* fonts: family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;600 */
+/* Estilo industrial sobrio: lienzo gris acero claro, titulares condensados en mayúsculas y acento ámbar tomado del rótulo "SUPPLY S.A. DE C.V." de su logotipo. */
+:root{
+  --bg:#E6E8EA; --surface:#FFFFFF; --alt:#F3F4F5; --ink:#15181B; --muted:#4A5158; --line:#CBD0D4;
+  --accent:#8A5A00; --accent-dark:#6B4600; --on-accent:#FFFFFF; --dark:#1E2226; --on-dark:#FFFFFF; --on-dark-muted:#B8C0C7;
+  --r:6px; --display:"Barlow Condensed",system-ui,sans-serif; --body:"Inter",system-ui,sans-serif; --label:"Inter",system-ui,sans-serif;
+  --h-weight:700; --h-track:.01em; --h-case:uppercase;
+}
+.hero h1{font-size:clamp(40px,6vw,76px)}
+.brand img{height:44px;border-radius:4px}
+</style>
+</head>
+<body>
+
+<div class="proposal" role="note">
+  <div class="wrap">
+    <span>Vista previa de rediseño propuesta para Steel and Metals Supply. No es el sitio oficial.</span>
+    <button type="button" id="openChanges">Ver qué mejoramos</button>
+  </div>
+</div>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#inicio"><img src="https://steelandmetals.com.mx/images/steel-and-metals-logo.jpg" alt="Steel and Metals Supply"></a>
+    <nav class="main" aria-label="Principal"><a href="#productos">Productos</a><a href="#nosotros">Nosotros</a><a href="#contacto">Contacto</a></nav>
+    <a class="btn btn-accent" href="#contacto">Cotizar</a>
+  </div>
+</header>
+
+<main id="inicio">
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <p class="kicker">Aceros, metales y plásticos · Reynosa</p>
+      <h1>El material que necesita, con cotización inmediata.</h1>
+      <p class="lead">Aceros al carbón, herramienta e inoxidables, aluminio, bronce, cobre y plásticos de ingeniería para la industria. Díganos qué material y qué medida; le cotizamos de inmediato.</p>
+      <div class="ctas"><a class="btn btn-accent" href="#contacto">Cotizar material</a><a class="btn btn-line" href="tel:+528992628049">899 262 8049</a></div>
+      
+    </div>
+    <aside class="card"><h2>Lo que encuentra</h2><ul><li>Aceros 1018, A2, O1, D2, 4140, H13, P20, INOX 304</li><li>Aluminio 6061 y aluminio estructural</li><li>Bronce 660, latón 360, cobre II y III</li><li>Acetal/Delrin, nylon, teflón, PVC gris, Lexan, G-10, baquelita</li><li>Endmills, brocas y machuelos</li></ul></aside>
+  </div>
+  <div class="wrap"><div class="facts"><div><b>Cotización inmediata</b><span>Precios competitivos y asesoría para su proyecto</span></div><div><b>8 familias de material</b><span>De aceros a plásticos de ingeniería</span></div><div><b>Reynosa</b><span>José de Escandón 388, Fracc. Fundadores</span></div></div></div>
+</section>
+
+<section class="block" id="productos"><div class="wrap"><div class="sec-head"><p class=kicker>Productos</p><h2>Materiales para la industria</h2><p>Pregunte también por otros grados y medidas.</p></div><div class="cards"><article><h3>Aceros al carbón</h3><p>Acero 1018 y Barra Thompson.</p></article><article><h3>Aceros grado herramienta</h3><p>A2, D2, H13, O1, 4140 y P20.</p></article><article><h3>Aceros inoxidables</h3><p>INOX 304.</p></article><article><h3>Aluminio</h3><p>Aluminio 6061-T6 y aluminio estructural en diversos perfiles y longitudes.</p></article><article><h3>Bronce, latón y cobre</h3><p>Bronce 660, latón 360, cobre II y III.</p></article><article><h3>Plásticos de ingeniería</h3><p>Acetal/Delrin, nylon, teflón, PVC gris, policarbonato/Lexan, G-10 y baquelita.</p></article><article><h3>Herramientas de corte</h3><p>Endmills, brocas y machuelos.</p></article></div></div></section><section class="block dark" id="nosotros"><div class="wrap"><div class="sec-head"><p class=kicker>Nosotros</p><h2>Nuestro cliente es nuestra prioridad</h2><p>Atendemos los requerimientos de negocio de nuestros clientes con cotizaciones y precios de manera inmediata, asesoría integral para sus proyectos, innovación continua y excelencia en el servicio.</p></div><div class="chip-groups"><div><ul class="chips"><li>Cotizaciones inmediatas</li><li>Asesoría integral</li><li>Precios competitivos</li><li>Relaciones de largo plazo</li><li>Puertas abiertas</li></ul></div></div></div></section>
+
+<section class="block alt" id="contacto">
+  <div class="wrap contact">
+    <div>
+      <div class="sec-head" style="margin-bottom:20px"><p class="kicker">Contacto</p><h2>Cotice su material</h2></div>
+      <dl><div><dt>Dirección</dt><dd>José de Escandón 388, Fracc. Fundadores, C.P. 88759, Reynosa, Tamps.</dd></div><div><dt>Teléfonos</dt><dd><a href="tel:+528992628049">899 262 8049</a> · <a href="tel:+528991410878">899 141 0878</a> · <a href="tel:+528991410996">899 141 0996</a></dd></div><div><dt>Correo</dt><dd><a href="mailto:miguel@steelandmetals.com.mx">miguel@steelandmetals.com.mx</a></dd></div></dl>
+    </div>
+    <form class="qf" id="qf" novalidate>
+      <h3>Cotizador de material</h3>
+      <div class="row"><div><label for="qCo">Empresa</label><input id="qCo" type="text" data-label="Empresa" required></div><div><label for="qName">Nombre</label><input id="qName" type="text" data-label="Nombre" required></div></div><div class="row"><div><label for="qPhone">Teléfono</label><input id="qPhone" type="tel" data-label="Teléfono" required></div><div><label for="qFam">Material</label><select id="qFam" data-label="Material"><option>Aceros al carbón</option><option>Aceros grado herramienta</option><option>Aceros inoxidables</option><option>Aluminio</option><option>Aluminio estructural</option><option>Bronce, latón o cobre</option><option>Plásticos de ingeniería</option><option>Herramientas de corte</option><option>Otro</option></select></div></div><div class="row"><div><label for="qGrade">Grado o aleación (ej. 1018, A2, 6061)</label><input id="qGrade" type="text" data-label="Grado o aleación (ej. 1018, A2, 6061)"></div><div><label for="qSize">Medida y cantidad</label><input id="qSize" type="text" data-label="Medida y cantidad"></div></div><div><label for="qMsg">Comentarios</label><textarea id="qMsg" rows="3" data-label="Comentarios"></textarea></div>
+      <button class="btn btn-accent" type="submit">Enviar cotización por correo</button>
+      <p class="err" id="qErr" role="alert" hidden>Llene los campos obligatorios para enviar su solicitud.</p>
+      <p class="note">Se abre su correo con la solicitud lista.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap"><span>Steel and Metals Supply · José de Escandón 388, Fracc. Fundadores, Reynosa</span><a href="mailto:miguel@steelandmetals.com.mx">miguel@steelandmetals.com.mx</a></div>
+</footer>
+
+<dialog id="changes" aria-labelledby="cT">
+  <div class="dh"><h2 id="cT">Qué mejoramos</h2><button class="x" type="button" data-close aria-label="Cerrar">×</button></div>
+  <div class="db"><ol><li><b>Se adapta al celular</b><span>El sitio actual no tiene la etiqueta para celular: en el teléfono el menú y las fotos de producto se salen de la pantalla.</span></li><li><b>Productos que se pueden leer y buscar</b><span>Los nombres de los materiales (1018, A2, 6061, Bronce 660...) están dentro de imágenes: no se pueden copiar, buscar ni leer bien en celular.</span></li><li><b>Teléfonos y correos que se tocan</b><span>Los tres teléfonos no tienen enlace para marcar y los correos usan una imagen de arroba, así que no se pueden tocar.</span></li><li><b>Cotizador de material</b><span>El cliente elige material, grado, medida y cantidad, y la solicitud les llega completa.</span></li><li><b>Ofertas</b><span>La sección Ofertas dice &quot;Proximamente ofertas ... esperelas muy pronto!&quot;.</span></li><li><b>Mejor en Google</b><span>El título es una lista de más de 150 caracteres con todos los materiales; aquí queda un título claro y una descripción.</span></li></ol></div>
+</dialog>
+
+<script>
+const B = {"mode": "mailto", "email": "miguel@steelandmetals.com.mx", "wa": "", "waIntro": "", "subject": "Solicitud de cotización de material", "hours": null};
+(function(){
+  if (!B.hours) return;
+  const now = new Date(new Date().toLocaleString("en-US", { timeZone: "America/Matamoros" }));
+  const h = B.hours[now.getDay()], m = now.getHours() * 60 + now.getMinutes();
+  const open = !!h && m >= h[0] && m < h[1];
+  const el = document.getElementById("status"); if (!el) return;
+  const hhmm = x => `${Math.floor(x / 60)}:${String(x % 60).padStart(2, "0")}`;
+  el.textContent = open ? `Abierto ahora, hasta las ${hhmm(h[1])}` : "Cerrado en este momento";
+})();
+document.getElementById("qf").addEventListener("submit", ev => {
+  ev.preventDefault();
+  const f = ev.target, err = document.getElementById("qErr");
+  const miss = [...f.querySelectorAll("[required]")].some(x => !x.value.trim());
+  if (miss) { err.hidden = false; return; }
+  err.hidden = true;
+  const lines = [...f.querySelectorAll("input,select,textarea")].filter(x => x.value.trim()).map(x => `${x.dataset.label}: ${x.value.trim()}`);
+  if (B.mode === "wa") {
+    window.open(`https://wa.me/${B.wa}?text=${encodeURIComponent(B.waIntro + "\n" + lines.join("\n"))}`, "_blank", "noopener");
+  } else {
+    location.href = `mailto:${B.email}?subject=${encodeURIComponent(B.subject)}&body=${encodeURIComponent(lines.join("\n"))}`;
+  }
+});
+const dlg = document.getElementById("changes");
+document.getElementById("openChanges").addEventListener("click", () => dlg.showModal());
+document.querySelector("[data-close]").addEventListener("click", () => dlg.close());
+dlg.addEventListener("click", ev => { if (ev.target === dlg) dlg.close(); });
+</script>
+</body>
+</html>
